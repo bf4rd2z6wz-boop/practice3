@@ -8,7 +8,6 @@ int main()
     std:: cout<< "Введите второе число: ";
     std:: cin >> secondNumber;
     int remainder = firstNumber % secondNumber;
-    int amount = firstNumber + secondNumber;
     if(remainder == 0)
 {
     std:: cout << "Да," << firstNumber << " делится на  " << secondNumber << " без остатка!";
